@@ -1,7 +1,6 @@
-import React from 'react'
 import MrPop from '../../../img/mr-pop.png'
 
-function Header(){
+function UpperPage(){
   return (
     <div class='Header'>
       <div class='TitleImages'>

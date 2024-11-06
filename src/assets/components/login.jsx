@@ -1,12 +1,8 @@
-import React from 'react'
-import Header from './navBar/header.jsx'
+import UpperPage from './navBar/upperPage'
 
 function Login(){
-  return(
-    <div>
-      <Header />
-    </div>
-  );
+  return;
 }
+
 
 export default Login;
