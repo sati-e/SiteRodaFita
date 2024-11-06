@@ -49,7 +49,7 @@ function HomePage(){
                     <li class="Texto">Criar listas e avaliar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar">Comprar</a>
+                <a class="BotaoComprar" href="">Comprar</a>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Vamp</h1>
@@ -59,7 +59,7 @@ function HomePage(){
                     <li class="Texto">Criar listas, avaliar e comentar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar">Comprar</a>
+                <a class="BotaoComprar" href="">Comprar</a>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Machine</h1>
@@ -70,7 +70,7 @@ function HomePage(){
                     <li class="Texto">Criar sua página de críticas</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar">Comprar</a>
+                <a class="BotaoComprar" href="">Comprar</a>
             </div>
         </div>
     </div>
