@@ -41,13 +41,37 @@ function HomePage(){
             <h2>Nossos Planos</h2>
         </div>
         <div class="Planos">
-            <div class="conteiner">
-                <img class="Imgplanos"src={Machine}></img>
-                <p>Acesso a 7 filmes semanais
-                Criar listas e avaliar filmes</p>
+            <div class="Conteiner">
+                <h1 class="Titulo">Machine</h1>
+                <img class="ImgPlanos"src={Machine}></img>
+                <ul class="ListaPlanos">
+                    <li class="Texto">Acesso a 7 filmes semanais</li>
+                    <li class="Texto">Criar listas e avaliar filmes</li>
+                </ul>
+                {/*CRIAR CAMINHO*/}
+                <a class="BotaoComprar">Comprar</a>
             </div>
-            <img class="Imgplanos"src={Vamp}></img>
-            <img class="Imgplanos"src={Samurai}></img>
+            <div class="Conteiner">
+                <h1 class="Titulo">Vamp</h1>
+                <img class="ImgPlanos"src={Vamp}></img>
+                <ul class="ListaPlanos">
+                    <li class="Texto">Acesso completo ao catálogo de filmes</li>
+                    <li class="Texto">Criar listas, avaliar e comentar filmes</li>
+                </ul>
+                {/*CRIAR CAMINHO*/}
+                <a class="BotaoComprar">Comprar</a>
+            </div>
+            <div class="Conteiner">
+                <h1 class="Titulo">Machine</h1>
+                <img class="Imgplanos"src={Samurai}></img>
+                <ul class="ListaPlanos">
+                    <li class="Texto">Acesso completo ao catálogo de filmes</li>
+                    <li class="Texto">Criar listas, avaliar e comentar filmes</li>
+                    <li class="Texto">Criar sua página de críticas</li>
+                </ul>
+                {/*CRIAR CAMINHO*/}
+                <a class="BotaoComprar">Comprar</a>
+            </div>
         </div>
     </div>
     );
