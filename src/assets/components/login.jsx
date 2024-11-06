@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from './navBar/navBar.jsx'
+import Header from './navBar/header.jsx'
 
 function Login(){
   return(
     <div>
-      <NavBar />
+      <Header />
     </div>
   );
 }

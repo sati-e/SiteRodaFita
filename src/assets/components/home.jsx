@@ -1,9 +1,10 @@
-import NavBar from './navBar/navBar.jsx'
-
+import Header from "./navBar/header"
 function HomePage(){
-    return <div>
-        <NavBar />
-    </div>;
+    return (<div>
+        <h1>Hello World</h1>
+        <Header></Header>
+        <p>helloooooooooo</p>
+    </div>);
 }
 
 export default HomePage;
