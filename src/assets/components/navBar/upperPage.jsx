@@ -1,11 +1,11 @@
-import MrPop from '../../../img/mr-pop.png'
 
 function UpperPage(){
   return (
     <div class='Header'>
       <div class='TitleImages'>
-          <img src={MrPop}></img>
+          <h1>-----------</h1>
       </div>
+      
       <div class='NavContainer'>
         <nav>
         </nav>
@@ -14,4 +14,4 @@ function UpperPage(){
   );
 }
 
-export default NavBar;
+export default UpperPage;
