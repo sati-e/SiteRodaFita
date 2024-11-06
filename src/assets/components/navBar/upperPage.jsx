@@ -6,7 +6,7 @@ function UpperPage(){
     <div class='Header'>
       <div class='SiteHeader'>
           <a class='SiteTitle' href="../home"><h1>Roda Fita</h1></a>
-          <h2 class='ClassicCinema'>Golden age cinema</h2>
+          <h2 class='SubTitulo'>Golden age cinema</h2>
       </div>
       <div class='NavContainer'>
         <nav>
