@@ -1,13 +1,13 @@
 import React from 'react'
-import NavBar from './assets/components/navBar/navBar'
+import HomePage from './assets/components/home'
 
-const App = () => {
+function App(){
   return (
     <div>
-      <NavBar />
+      <HomePage />
       
     </div>
-  )
+  );
 }
 
 export default App
