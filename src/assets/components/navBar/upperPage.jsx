@@ -11,10 +11,10 @@ function UpperPage(){
 
         {/*testando botao*/}
         <Link to={"/Login"}>Login</Link>
+        <Link to={"/cadastrar"}>Cadastrar</Link>
 
       <div class='NavContainer'>
-        <nav>
-        </nav>
+        
       </div>
     </div> 
   );

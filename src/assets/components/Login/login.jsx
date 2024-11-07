@@ -8,6 +8,7 @@ function Login(){
 
   return (
   <div>
+    
     <div class="LoginDireita">
       <h1 class="Titulo">Login</h1>
       <img src={PopFace}></img>
@@ -18,7 +19,8 @@ function Login(){
       <label for="password"></label>
       <input type="password" id="password"placeholder="senha"/>
       <p>Escqueci a senha, <a href="">Clique aqui</a></p>
-      <Link to={"/"}>Voltar</Link>
+      <Link class="Button" to={"/"}>Voltar</Link>
+      <Link class="Button" to={""}>Entrar</Link>
       
     </div>
   </div>
