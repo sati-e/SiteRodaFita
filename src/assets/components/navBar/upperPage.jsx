@@ -1,23 +1,29 @@
-
 import { Link} from 'react-router-dom'
 import React from 'react';
+import { StyleUpper } from '../styles/styleUpper';
 
 function UpperPage(){
   return (
-    <div class='Header'>
-      <div class='TitleImages'>
-          <h1>-----------</h1>
-      </div>
+    <StyleUpper>
+      <div class='FullHeader'>
+        <div class='Title&SubTitle'>
 
-        {/*testando botao*/}
-        <Link to={"/Login"}>Login</Link>
-        <Link to={"/cadastrar"}>Cadastrar</Link>
-
-      <div class='NavContainer'>
+          <div class='Title'><h1>Roda Fita</h1></div>
+          <div class='SubTitle'><h2>Classic Cinema</h2></div>
         
+        </div>
+          
+          <div class='NavBar'>
+
+          <span class="NavButtons"><a href='#Planos'></a>Planos</span>
+
+          <Link to={""}><span class="NavButtons">Sobre Nós</span></Link>
+          <Link to={"/cadastrar"}><span class="NavButtons">Cadastrar</span></Link>
+          <Link to={"/Login"}><span class="NavButtons">Entrar</span></Link>
+          </div>
+
       </div>
-    </div> 
-  );
+    </StyleUpper>);
 }
 
 export default UpperPage;
