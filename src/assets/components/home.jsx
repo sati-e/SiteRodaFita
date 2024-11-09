@@ -43,7 +43,7 @@ function HomePage(){
         <div class="SubTitulo">
             <h2>Nossos Planos</h2>
         </div>
-        <div class="Planos">
+        <div id="Planos" class="Planos">
             <div class="Conteiner">
                 <h1 class="Titulo">Machine</h1>
                 <img class="ImgPlanos"src={Machine}></img>
