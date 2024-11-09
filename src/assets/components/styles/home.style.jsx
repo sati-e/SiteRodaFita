@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const StyleButton = styled.div`
+export const StyleHome = styled.div`
     & button {
         background-color: red;
     }
-    
 `;

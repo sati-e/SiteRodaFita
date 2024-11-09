@@ -10,14 +10,14 @@ import BotaoDir from '../../img/icons/seta-direita.png'
 import Machine from '../../img/img filmes/machine.png'
 import Vamp from '../../img/img filmes/vamp.png'
 import Samurai from '../../img/img filmes/samurai.png'
-import { StyleButton } from "./styles/home.style";
+import { StyleHome } from "./styles/home.style";
 import { Link} from 'react-router-dom'
 
 function HomePage(){
     return (
     <div>
     <UpperPage />
-    <StyleButton>
+    <StyleHome>
         <div class="Mainpage">
             <div class="Esquerda">
                 <div>
@@ -76,7 +76,7 @@ function HomePage(){
                 <Link class="BotaoComprar" to={""}><button>Comprar</button></Link>
             </div>
         </div>
-    </StyleButton>
+    </StyleHome>
     </div>
     );
 }
