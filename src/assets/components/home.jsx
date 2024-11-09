@@ -11,6 +11,7 @@ import Machine from '../../img/img filmes/machine.png'
 import Vamp from '../../img/img filmes/vamp.png'
 import Samurai from '../../img/img filmes/samurai.png'
 import { StyleButton } from "./styles/home.style";
+import { Link} from 'react-router-dom'
 
 function HomePage(){
     return (
@@ -51,7 +52,7 @@ function HomePage(){
                     <li class="Texto">Criar listas e avaliar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <button class="BotaoComprar" href="">Comprar</button>
+                <Link class="BotaoComprar" to={""}><button>Comprar</button></Link>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Vamp</h1>
@@ -61,7 +62,7 @@ function HomePage(){
                     <li class="Texto">Criar listas, avaliar e comentar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <button class="BotaoComprar" href="">Comprar</button>
+                <Link class="BotaoComprar" to={""}><button>Comprar</button></Link>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Machine</h1>
@@ -72,7 +73,7 @@ function HomePage(){
                     <li class="Texto">Criar sua página de críticas</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <button class="BotaoComprar" href="">Comprar</button>
+                <Link class="BotaoComprar" to={""}><button>Comprar</button></Link>
             </div>
         </div>
     </StyleButton>
