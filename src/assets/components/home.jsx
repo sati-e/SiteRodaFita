@@ -11,10 +11,12 @@ import Machine from '../../img/img filmes/machine.png'
 import Vamp from '../../img/img filmes/vamp.png'
 import Samurai from '../../img/img filmes/samurai.png'
 import { StyleHome } from "./styles/home.style";
-import { Link} from 'react-router-dom'
+import { Link} from 'react-router-dom';
+import { UniversalStyle } from "./styles/universalStyle";
 
 function HomePage(){
     return (
+    <UniversalStyle>
     <div>
     <UpperPage />
     <StyleHome>
@@ -78,6 +80,7 @@ function HomePage(){
         </div>
     </StyleHome>
     </div>
+    </UniversalStyle>
     );
 }
 
