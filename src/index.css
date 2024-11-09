@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Teutonic3";
+    src:local("Teutonic3"),
+    url('./fonts/teutonic3.ttf') 
+  }
+@font-face{
+    font-family: "photographSignature";
+    src: local("photographSignature"),
+    url('./fonts/photographSignature.ttf')
+}

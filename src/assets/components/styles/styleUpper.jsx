@@ -1,9 +1,14 @@
 import styled from "styled-components";
-import GlobalFonts from '../../../fonts/fonts'
-
+import "../../../index.css";
+import "../../../fonts/teutonic3.ttf";
+import "../../../fonts/photographSignature.ttf";
 
 export const StyleUpper = styled.div`
-    &  .Title {
-        background-color: red;
+    
+
+    & .Title {
+        font-family: teutonic3;
     }
+    & .SubTitle{
+        font-family: photographSignature}
 `;

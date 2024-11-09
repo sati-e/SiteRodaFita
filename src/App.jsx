@@ -5,6 +5,7 @@ import Login from './assets/components/Login/login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cadastrar from './assets/components/Login/cadastrar';
 
+
 function App () {
   return (
     <>
