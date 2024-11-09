@@ -1,20 +1,20 @@
-import HomePage from "../home";
 
+import { Link} from 'react-router-dom'
+import React from 'react';
 
 function UpperPage(){
   return (
     <div class='Header'>
-      <div class='SiteHeader'>
-          <a class='SiteTitle' href="../home"><h1>Roda Fita</h1></a>
-          <h2 class='SubTitulo'>Golden age cinema</h2>
+      <div class='TitleImages'>
+          <h1>-----------</h1>
       </div>
+
+        {/*testando botao*/}
+        <Link to={"/Login"}>Login</Link>
+        <Link to={"/cadastrar"}>Cadastrar</Link>
+
       <div class='NavContainer'>
-        <nav>
-          <a class='navItem' href='' target='self'><span>Planos</span></a>
-          <a class='navItem' href='' target='self'><span>Sobre Nós</span></a>
-          <a class='navItem' href='' target='self'><span>Cadastrar</span></a>
-          <a class='navItem' href='' target='self'><span>Entrar</span></a>
-        </nav>
+        
       </div>
     </div> 
   );
