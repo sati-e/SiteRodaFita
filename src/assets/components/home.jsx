@@ -10,11 +10,13 @@ import BotaoDir from '../../img/icons/seta-direita.png'
 import Machine from '../../img/img filmes/machine.png'
 import Vamp from '../../img/img filmes/vamp.png'
 import Samurai from '../../img/img filmes/samurai.png'
+import { StyleButton } from "./styles/home.style";
 
 function HomePage(){
     return (
     <div>
     <UpperPage />
+    <StyleButton>
         <div class="Mainpage">
             <div class="Esquerda">
                 <div>
@@ -49,7 +51,7 @@ function HomePage(){
                     <li class="Texto">Criar listas e avaliar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar" href="">Comprar</a>
+                <button class="BotaoComprar" href="">Comprar</button>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Vamp</h1>
@@ -59,7 +61,7 @@ function HomePage(){
                     <li class="Texto">Criar listas, avaliar e comentar filmes</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar" href="">Comprar</a>
+                <button class="BotaoComprar" href="">Comprar</button>
             </div>
             <div class="Conteiner">
                 <h1 class="Titulo">Machine</h1>
@@ -70,9 +72,10 @@ function HomePage(){
                     <li class="Texto">Criar sua página de críticas</li>
                 </ul>
                 {/*CRIAR CAMINHO*/}
-                <a class="BotaoComprar" href="">Comprar</a>
+                <button class="BotaoComprar" href="">Comprar</button>
             </div>
         </div>
+    </StyleButton>
     </div>
     );
 }

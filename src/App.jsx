@@ -7,6 +7,7 @@ import Cadastrar from './assets/components/Login/cadastrar';
 
 function App () {
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
@@ -16,6 +17,7 @@ function App () {
         <Route path="*" element={<h1>Not Found</h1>}></Route>
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 
