@@ -15,11 +15,11 @@ function UpperPage(){
           
           <div class='NavBar'>
 
-          <span class="NavButtons"><a href='#Planos'></a>Planos</span>
+          <span class="NavButtons"><a class='LinkStyle' href='#Planos'></a>Planos</span>
 
-          <Link to={""}><span class="NavButtons">Sobre Nós</span></Link>
-          <Link to={"/cadastrar"}><span class="NavButtons">Cadastrar</span></Link>
-          <Link to={"/Login"}><span class="NavButtons">Entrar</span></Link>
+          <Link to={""}> <a class='LinkStyle'> <span class="NavButtons">Sobre Nós</span> </a> </Link>
+          <Link to={"/cadastrar"}> <a class='LinkStyle'> <span class="NavButtons">Cadastrar</span> </a> </Link>
+          <Link to={"/Login"}> <a class='LinkStyle'> <span class="NavButtons">Entrar</span> </a> </Link>
           </div>
 
       </div>
