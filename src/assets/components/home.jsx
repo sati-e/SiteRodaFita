@@ -12,25 +12,24 @@ import Vamp from '../../img/img filmes/vamp.png'
 import Samurai from '../../img/img filmes/samurai.png'
 import { StyleHome } from "./styles/home.style";
 import { Link} from 'react-router-dom';
-import { UniversalStyle } from "./styles/universalStyle";
 
 function HomePage(){
     return (
-    <UniversalStyle>
     <div>
     <UpperPage />
     <StyleHome>
         <div class="Mainpage">
             <div class="Esquerda">
-                <div>
+                <div class="TextWithCurves">
                     <img class="Floridos" src={Floridos}></img>
                     <p class="Texto"> Descubra um tesouro de clássicos do cinema em 
                         nosso site, onde a nostalgia encontra a sétima arte! 
                         Assista, reveja e redescubra filmes que moldaram a história 
                         do entretenimento, tudo em um só lugar </p>
                     <img class="Floridos" src={FloridosDois}></img>
-                    </div>
-                    <div class="Carrossel">
+                </div>
+
+                <div class="Carrossel">
                     <img class="Postercarrossel" src={Invisivel}></img>
                     <img class="Postercarrossel" src={Tomate}></img>
                     <img class="Postercarrossel" src={Onibaba}></img>
@@ -80,7 +79,7 @@ function HomePage(){
         </div>
     </StyleHome>
     </div>
-    </UniversalStyle>
+    
     );
 }
 

@@ -8,8 +8,8 @@ function UpperPage(){
       <div class='FullHeader'>
         <div class='Title&SubTitle'>
 
-          <div class='Title'><h1>Roda Fita</h1></div>
-          <div class='SubTitle'><h2>Classic Cinema</h2></div>
+          <span class='Title'>Roda Fita</span>
+          <span class='SubTitle'>Classic Cinema</span>
         
         </div>
           
