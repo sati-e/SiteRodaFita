@@ -4,8 +4,23 @@ import Email from '../../../img/icons/email.png'
 import Chave from '../../../img/icons/chave.png'
 import { Link} from 'react-router-dom'
 import Igor from '../../../img/img filmes/img-igor.png'
+import { useState } from 'react'
+
 
 function Cadastrar() {
+
+  const [email,setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('');
+
+  const handleSubmit = (event) =>{
+    event.preventDefault();
+    //print no console
+    console.log('Nome', username);
+    console.log('Email', email);
+    console.log('Password', password)
+  }
+
   return (
     <div>
       <h1 className="Titulo">Cadastrar</h1>
@@ -15,17 +30,42 @@ function Cadastrar() {
         </div>
           <div className="cadastrarEsquerda">
               <img className="icons" src={PopFace}></img>
-              <input type="usename" id="usename" placeholder="Nome"/>
-              <img className="icons" src={Email}></img>
-              <label for="email"></label>
-              <input type="email" id="email" placeholder="exemplo@mail.com"/>
-              <img className="icons" src={Chave}></img>
-              <label for="password"></label>
-              <input type="password" id="password"placeholder="senha"/>
-              <label for="password"></label>
-              <input type="password" id="password"placeholder="senha"/>
+              <form onSubmit={ handleSubmit }>
+                <input 
+                  type="usename" 
+                  id="usename" 
+                  placeholder="Nome"
+                  onChange={(e)=> setUsername(e.target.value)} //atualiza o valor do estado a cada digitalização
+                  required
+                />
+                <img className="icons" src={Email}></img>
+                <label htmlFor="email"></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  placeholder="exemplo@mail.com"
+                  onChange={(e) => setEmail(e.target.value)}
+                  required  
+                />
+                <img className="icons" src={Chave}></img>
+                <label htmlFor="password"></label>
+                <input 
+                  type="password" 
+                  id="password"
+                  placeholder="senha"
+                  onChange={(e)=> setPassword(e.target.value)}
+                  required  
+                />
+                <label htmlFor="password"></label>
+                <input 
+                  type="password" 
+                  id="password"
+                  placeholder="senha"
+                  required
+                />
+                <button type="submit">Entrar</button>
+              </form>
               <Link className="Button" to={"/"}>Voltar</Link>
-              <Link to={""}>Entrar</Link>
           </div>
       </div>
     </div>
