@@ -12,8 +12,12 @@ import Vamp from '../../../img/img filmes/vamp.png'
 import Samurai from '../../../img/img filmes/samurai.png'
 import { StyleHome } from "../styles/home.style";
 import { Link} from 'react-router-dom';
+import {useRef} from 'react';
 
 function HomePage(){
+    
+    const planos = useRef(null);
+    
     return (
     <div>
     <UpperPage />
@@ -44,7 +48,7 @@ function HomePage(){
         <div className="SubTitulo">
             <h2>Nossos Planos</h2>
         </div>
-        <div id="Planos" className="Planos">
+        <div ref={planos} id="Planos" className="Planos">
             <div className="Conteiner">
                 <h1 className="Titulo">Machine</h1>
                 <img className="ImgPlanos"src={Machine}></img>
