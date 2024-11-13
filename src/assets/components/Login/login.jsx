@@ -9,22 +9,22 @@ function Login(){
 
   return (
     <div>
-      <h1 class="Titulo">Login</h1>
-      <div class = "ConteinerLogin">
-        <div class="ImgBela">
+      <h1 className="Titulo">Login</h1>
+      <div className = "ConteinerLogin">
+        <div className="ImgBela">
           <img src={Bela}></img>
         </div>
-          <div class="LoginDireita">
+          <div className="LoginDireita">
             <img src={PopFace}></img>
-            <img class="icons" src={Email}></img>
+            <img className="icons" src={Email}></img>
             <label for="email"></label>
             <input type="email" id="email" placeholder="exemplo@mail.com"/>
-            <img class="icons" src={Chave}></img>
+            <img className="icons" src={Chave}></img>
             <label for="password"></label>
             <input type="password" id="password"placeholder="senha"/>
             <p>Escqueci a senha, <a href="">Clique aqui</a></p>
-            <Link class="Button" to={"/"}>Voltar</Link>
-            <Link class="Button" to={""}>Entrar</Link>
+            <Link className="Button" to={"/"}>Voltar</Link>
+            <Link className="Button" to={""}>Entrar</Link>
         </div>
       </div>
     </div>

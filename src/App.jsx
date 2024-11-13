@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from './assets/components/home';
+import HomePage from './assets/components/homePage/home';
 import UpperPage from './assets/components/navBar/upperPage';
 import Login from './assets/components/login/login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

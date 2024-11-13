@@ -5,21 +5,21 @@ import { StyleUpper } from '../styles/styleUpper';
 function UpperPage(){
   return (
     <StyleUpper>
-      <div class='FullHeader'>
-        <div class='Title&SubTitle'>
+      <div className='FullHeader'>
+        <div className='Title&SubTitle'>
 
-          <span class='Title'>Roda Fita</span>
-          <span class='SubTitle'>Classic Cinema</span>
+          <span className='Title'>Roda Fita</span>
+          <span className='SubTitle'>Class Cinema</span>
         
         </div>
           
-          <div class='NavBar'>
+          <div className='NavBar'>
 
-          <span class="NavButtons"><a class='LinkStyle' href='#Planos'></a>Planos</span>
+          <span className="NavButtons"><a className='LinkStyle' href='#Planos'></a>Planos</span>
 
-          <Link to={""}> <a class='LinkStyle'> <span class="NavButtons">Sobre Nós</span> </a> </Link>
-          <Link to={"/cadastrar"}> <a class='LinkStyle'> <span class="NavButtons">Cadastrar</span> </a> </Link>
-          <Link to={"/Login"}> <a class='LinkStyle'> <span class="NavButtons">Entrar</span> </a> </Link>
+          <Link to={""}> <a className='LinkStyle'> <span className="NavButtons">Sobre Nós</span> </a> </Link>
+          <Link to={"/cadastrar"}> <a className='LinkStyle'> <span className="NavButtons">Cadastrar</span> </a> </Link>
+          <Link to={"/Login"}> <a className='LinkStyle'> <span className="NavButtons">Entrar</span> </a> </Link>
           </div>
 
       </div>

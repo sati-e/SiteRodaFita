@@ -8,23 +8,23 @@ import Igor from '../../../img/img filmes/img-igor.png'
 function Cadastrar() {
   return (
     <div>
-      <h1 class="Titulo">Cadastrar</h1>
-      <div class = "ConteinerLogin">
-        <div class="ImgIgor">
+      <h1 className="Titulo">Cadastrar</h1>
+      <div className = "ConteinerLogin">
+        <div className="ImgIgor">
           <img src={Igor}></img>
         </div>
-          <div class="cadastrarEsquerda">
-              <img class="icons" src={PopFace}></img>
+          <div className="cadastrarEsquerda">
+              <img className="icons" src={PopFace}></img>
               <input type="usename" id="usename" placeholder="Nome"/>
-              <img class="icons" src={Email}></img>
+              <img className="icons" src={Email}></img>
               <label for="email"></label>
               <input type="email" id="email" placeholder="exemplo@mail.com"/>
-              <img class="icons" src={Chave}></img>
+              <img className="icons" src={Chave}></img>
               <label for="password"></label>
               <input type="password" id="password"placeholder="senha"/>
               <label for="password"></label>
               <input type="password" id="password"placeholder="senha"/>
-              <Link class="Button" to={"/"}>Voltar</Link>
+              <Link className="Button" to={"/"}>Voltar</Link>
               <Link to={""}>Entrar</Link>
           </div>
       </div>
