@@ -26,17 +26,35 @@ export const StyleUpper = styled.div`
     }
     
     & .NavBar{
+        border-top: 2px solid;
         margin-top: 1.5%;
         text-align: center;
         margin-top: solid;
     }
+
     & .NavButtons{
+        margin-top:1%;
+    }
+
+    & .LinkStyle{
+
+        font-size: 1.5em;
         padding-right: 5%;
+        
+
+        
     }
 
 
     & a:link{
         text-decoration: none;
+    }
+    & .NavSpan:hover{
+        color:#FDF0D6;
+
+        background-color: #A90F0F;
+        padding: 0% 1% 0% 1%;
+        border-radius: 3px;
     }
     
 

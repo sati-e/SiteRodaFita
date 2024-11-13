@@ -14,12 +14,12 @@ function UpperPage(){
         </div>
           
           <div class='NavBar'>
-
-          <span class="NavButtons"><a class='LinkStyle' href='#Planos'></a>Planos</span>
-
-          <Link to={""}> <a class='LinkStyle'> <span class="NavButtons">Sobre Nós</span> </a> </Link>
-          <Link to={"/cadastrar"}> <a class='LinkStyle'> <span class="NavButtons">Cadastrar</span> </a> </Link>
-          <Link to={"/Login"}> <a class='LinkStyle'> <span class="NavButtons">Entrar</span> </a> </Link>
+            <nav class="NavButtons">
+              <Link to={"#Planos"}><a class='LinkStyle' href='#Planos'><span class="NavSpan">Planos</span></a></Link>
+              <Link to={""}> <a class='LinkStyle'><span class="NavSpan">Sobre Nós</span></a> </Link>
+              <Link to={"/cadastrar"}> <a class='LinkStyle'> <span class="NavSpan">Cadastrar</span></a></Link>
+              <Link to={"/Login"}> <a class='LinkStyle'><span class="NavSpan">Entrar</span></a> </Link>
+            </nav>
           </div>
 
       </div>
